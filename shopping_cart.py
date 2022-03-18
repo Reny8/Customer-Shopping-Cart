@@ -2,7 +2,7 @@ class Shopping_Cart:
     def __init__(self):
         self.products = []
 
-    def total_of_products(self):
+    def total_of_items(self):
         items_total = len(self.products)
         print(items_total)
 
